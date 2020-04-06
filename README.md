@@ -1,0 +1,1 @@
+"# sentacar django projesi" 
