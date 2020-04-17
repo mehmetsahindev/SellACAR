@@ -8,7 +8,7 @@ class Category(models.Model):
         ('False', 'Hayır'),
     )
 
-    title = models.CharField(max_length=30)
+    title = models.CharField(max_length=40)
     keywords = models.CharField(max_length=255)
     description = models.CharField(max_length=255)
     image = models.ImageField(blank=True,upload_to='images/')
