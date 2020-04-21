@@ -1,8 +1,9 @@
 {% extends 'homebase.html' %}
 
-{% block title %}SentACAR Home {% endblock %}
-{% block keywords %}SentACAR Home Keywords {% endblock %}
-{% block description %}SentACAR Home Description {% endblock %}
+{% block title %} {{ settings.title }} {% endblock %}
+{% block keywords %} {{ settings.keywords }} {% endblock %}
+{% block description %} {{ settings.description }} {% endblock %}
+{% block head %} <link rel="shortcut icon" href="{{ settings.icon.url }}" type="image/x-icon"> {% endblock %}
 
 {% block slider %}
     {% include 'slider.html' %}
