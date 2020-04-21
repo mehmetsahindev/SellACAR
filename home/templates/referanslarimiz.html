@@ -1,0 +1,36 @@
+{% extends 'homebase.html' %}
+
+{% block title %} Referanslarımız | {{ settings.company }} {% endblock %}
+{% block keywords %} {{ settings.keywords }} {% endblock %}
+{% block description %} {{ settings.description }} {% endblock %}
+{% block head %} <link rel="shortcut icon" href="{{ settings.icon.url }}" type="image/x-icon"> {% endblock %}
+
+
+{% block body %}
+    <!-- Start Proerty header  -->
+  <section id="aa-property-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="aa-property-header-inner">
+            <h2>REFERANSLARIMIZ</h2>
+            <ol class="breadcrumb">
+            <li><a href="#">HOME</a></li>
+            <li class="active">REFERANSLARIMIZ</li>
+          </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Proerty header  -->
+  <section id="aa-about-us">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="aa-about-us-area">{{ settings.references |safe }}</div>
+        </div>
+      </div>
+    </div>
+  </section>
+{% endblock %}
