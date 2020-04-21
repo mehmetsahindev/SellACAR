@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d1648cf-a5ab-49b1-8c79-dbfc2383f332" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/product/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/product/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/product/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sentacar/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/sentacar/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sentacar/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/sentacar/urls.py" afterDir="false" />
     </list>
@@ -46,7 +44,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1aAc1M4ROoMRnO3GvqmSbgWrxUQ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -97,7 +97,7 @@
       <updated>1586181623415</updated>
       <workItem from="1586181632309" duration="3833000" />
       <workItem from="1587340056810" duration="1891000" />
-      <workItem from="1587373166386" duration="3036000" />
+      <workItem from="1587373166386" duration="13279000" />
     </task>
     <task id="LOCAL-00001" summary="product uygulaması ve category modeli eklendi">
       <created>1587146698856</created>
@@ -192,9 +192,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="612" y="169" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1587214536527" />
-    <state x="661" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1587373165580">
+    <state x="661" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1587461379436">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="661" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587373165580" />
+    <state x="661" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587461379436" />
   </component>
 </project>

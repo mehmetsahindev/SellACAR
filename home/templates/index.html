@@ -1,12 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Home Index</title>
-</head>
-<body>
+{% extends 'homebase.html' %}
 
-<h2>{{ controller }} Controller Index</h2>
+{% block title %}SentACAR Home {% endblock %}
+{% block keywords %}SentACAR Home Keywords {% endblock %}
+{% block description %}SentACAR Home Description {% endblock %}
 
-</body>
-</html>
+{% block slider %}
+    {% include 'slider.html' %}
+{% endblock %}
+
+{% block search %}
+    {% include 'search.html' %}
+{% endblock %}
+
+{% block body %}
+    {% include 'content.html' %}
+{% endblock %}
