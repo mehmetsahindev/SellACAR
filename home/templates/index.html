@@ -5,14 +5,21 @@
 {% block description %} {{ settings.description }} {% endblock %}
 {% block head %} <link rel="shortcut icon" href="{{ settings.icon.url }}" type="image/x-icon"> {% endblock %}
 
-{% block slider %}
-    {% include 'slider.html' %}
+{% block sidebar %}
+    <div class="row">
+    {% include 'sidebar.html' %}
 {% endblock %}
 
-{% block search %}
-    {% include 'search.html' %}
+
+
+{% block slider %}
+    <div class="span9">
+    {% include 'slider.html' %}
 {% endblock %}
 
 {% block body %}
     {% include 'content.html' %}
+    </div>
+    </div>
 {% endblock %}
+

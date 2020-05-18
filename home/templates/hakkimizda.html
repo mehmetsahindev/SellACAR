@@ -7,30 +7,20 @@
 
 
 {% block body %}
-    <!-- Start Proerty header  -->
-  <section id="aa-property-header">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="aa-property-header-inner">
-            <h2>HAKKIMIZDA</h2>
-            <ol class="breadcrumb">
-            <li><a href="#">HOME</a></li>
-            <li class="active">HAKKIMIZDA</li>
-          </ol>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End Proerty header  -->
-  <section id="aa-about-us">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="aa-about-us-area">{{ settings.aboutus |safe }}</div>
-        </div>
-      </div>
-    </div>
-  </section>
+        <!--
+Body Section
+-->
+	<hr class="soften">
+	<div class="well well-small">
+	<h1>About us</h1>
+	<hr class="soften"/>
+	<div class="row-fluid">
+		<div class="span12 relative">
+            {{ settings.aboutus |safe }}
+		</div>
+
+	</div>
+
+
+</div>
 {% endblock %}

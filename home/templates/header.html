@@ -1,78 +1,105 @@
-<!-- Start header section -->
-  <header id="aa-header">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="aa-header-area">
-            <div class="row">
-              <div class="col-md-6 col-sm-6 col-xs-6">
-                <div class="aa-header-left">
-                  <div class="aa-telephone-no">
-                    <span class="fa fa-phone"></span>
-                    1-900-523-3564
-                  </div>
-                  <div class="aa-email hidden-xs">
-                    <span class="fa fa-envelope-o"></span> info@markups.com
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6 col-sm-6 col-xs-6">
-                <div class="aa-header-right">
-                  <a href="register.html" class="aa-register">Register</a>
-                  <a href="signin.html" class="aa-login">Login</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
-  <!-- End header section -->
+{% load static %}
+<!--
+	Upper Header Section
+-->
+<div class="navbar navbar-inverse navbar-fixed-top">
+	<div class="topNav">
+		<div class="container">
+			<div class="alignR">
+				<div class="pull-left socialNw">
+					<a href="#"><span class="icon-twitter"></span></a>
+					<a href="#"><span class="icon-facebook"></span></a>
+					<a href="#"><span class="icon-youtube"></span></a>
+					<a href="#"><span class="icon-tumblr"></span></a>
+				</div>
+				<a class="active" href="/"> <span class="icon-home"></span> Home</a>
+				<a href="#"><span class="icon-user"></span> My Account</a>
+				<a href=""><span class="icon-edit"></span> Free Register </a>
+				<a href="/hakkimizda"><span class="icon-envelope"></span> About us</a>
+				<a href="/iletisim"><span class="icon-envelope"></span> Contact us</a>
+{#				<a href=""><span class="icon-shopping-cart"></span> 2 Item(s) - <span class="badge badge-warning"> $448.42</span></a>#}
+			</div>
+		</div>
+	</div>
+</div>
 
-<!-- Start menu section -->
-  <section id="aa-menu-area">
-    <nav class="navbar navbar-default main-navbar" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <!-- FOR MOBILE VIEW COLLAPSED BUTTON -->
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <!-- LOGO -->
-          <!-- Text based logo -->
-           <a class="navbar-brand aa-logo" href="index.html"> Home <span>Property</span></a>
-           <!-- Image based logo -->
-           <!-- <a class="navbar-brand aa-logo-img" href="index.html"><img src="img/logo.png" alt="logo"></a> -->
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul id="top-menu" class="nav navbar-nav navbar-right aa-main-nav">
-            <li class="active"><a href="index.html">HOME</a></li>
-             <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="properties.html">PROPERTIES <span class="caret"></span></a>
-              <ul class="dropdown-menu" role="menu">
-                <li><a href="properties.html">PROPERTIES</a></li>
-                <li><a href="properties-detail.html">PROPERTIES DETAIL</a></li>
-              </ul>
-            </li>
-            <li><a href="gallery.html">GALLERY</a></li>
-            <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="blog-archive.html">BLOG <span class="caret"></span></a>
-              <ul class="dropdown-menu" role="menu">
-                <li><a href="blog-archive.html">BLOG</a></li>
-                <li><a href="blog-single.html">BLOG DETAILS</a></li>
-              </ul>
-            </li>
-            <li><a href="/contact">REFERANSLAR</a></li>
-            <li><a href="/contact">CONTACT</a></li>
-            <li><a href="/aboutus">HAKKIMIZDA</a></li>
-           <li><a href="404.html">404 PAGE</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </nav>
-  </section>
-  <!-- End menu section -->
+<!--
+Lower Header Section
+-->
+<div class="container">
+<div id="gototop"> </div>
+<header id="header">
+<div class="row">
+	<div class="span4">
+	<h1>
+	<a class="logo" href="/"><span>Twitter Bootstrap ecommerce template</span>
+		<img src="{% static 'img/car.png' %}" alt="bootstrap sexy shop">
+	</a>
+	</h1>
+	</div>
+	<div class="span4">
+	<div class="offerNoteWrapper">
+	<h1 class="dotmark">
+	<i class="icon-cut"></i>
+	Twitter Bootstrap shopping cart HTML template is available @ $14
+	</h1>
+	</div>
+	</div>
+	<div class="span4 alignR">
+	<p><br> <strong> Support (24/7) :  0800 1234 678 </strong><br><br></p>
+	<span class="btn btn-mini">[ 2 ] <span class="icon-shopping-cart"></span></span>
+	<span class="btn btn-warning btn-mini">$</span>
+	<span class="btn btn-mini">&pound;</span>
+	<span class="btn btn-mini">&euro;</span>
+	</div>
+</div>
+</header>
+
+<!--
+Navigation Bar Section
+-->
+<div class="navbar">
+	  <div class="navbar-inner">
+		<div class="container">
+		  <a data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		  </a>
+		  <div class="nav-collapse">
+			<ul class="nav">
+			  <li class="active"><a href="index.html">Home	</a></li>
+			  <li class=""><a href="">List View</a></li>
+			  <li class=""><a href="">Grid View</a></li>
+			  <li class=""><a href="">Three Column</a></li>
+			  <li class=""><a href="">Four Column</a></li>
+			  <li class=""><a href="">General Content</a></li>
+			</ul>
+			<form action="#" class="navbar-search pull-left">
+			  <input type="text" placeholder="Search" class="search-query span2">
+			</form>
+			<ul class="nav pull-right">
+			<li class="dropdown">
+				<a data-toggle="dropdown" class="dropdown-toggle" href="#"><span class="icon-lock"></span> Login <b class="caret"></b></a>
+				<div class="dropdown-menu">
+				<form class="form-horizontal loginFrm">
+				  <div class="control-group">
+					<input type="text" class="span2" id="inputEmail" placeholder="Email">
+				  </div>
+				  <div class="control-group">
+					<input type="password" class="span2" id="inputPassword" placeholder="Password">
+				  </div>
+				  <div class="control-group">
+					<label class="checkbox">
+					<input type="checkbox"> Remember me
+					</label>
+					<button type="submit" class="shopBtn btn-block">Sign in</button>
+				  </div>
+				</form>
+				</div>
+			</li>
+			</ul>
+		  </div>
+		</div>
+	  </div>
+	</div>
