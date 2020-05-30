@@ -1,0 +1,74 @@
+{% extends 'homebase.html' %}
+
+{% block title %} Giriş Yap | {{ settings.company }} {% endblock %}
+{% block keywords %} {{ settings.keywords }} {% endblock %}
+{% block description %} {{ settings.description }} {% endblock %}
+{% block head %} <link rel="shortcut icon" href="{{ settings.icon.url }}" type="image/x-icon"> {% endblock %}
+
+{% block sidebar %}
+    <div class="row">
+    {% include 'sidebar.html' %}
+{% endblock %}
+
+{% block body %}
+
+    <div class="span9">
+        <ul class="breadcrumb">
+            <li><a href="/">Anasayfa</a> <span class="divider">/</span></li>
+            <li class="active">Giriş Yap</li>
+        </ul>
+
+        <div class="row">
+
+
+            <div class="span4">
+                <div class="well">
+                    <h5>GİRİŞ YAP</h5>
+                    {% if messages %}
+                        {% for message in messages %}
+                            <div class="alert alert-{{ message.tags }}">
+                                {{ message }}
+                            </div>
+                        {% endfor %}
+                    {% endif %}
+                    <form method="post">
+                        {% csrf_token %}
+                        <div class="control-group">
+                            <label class="control-label" for="inputEmail">Username</label>
+                            <div class="controls">
+                                <input class="span3"  type="text" placeholder="Username" name="username">
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <label class="control-label" for="inputPassword">Şifre</label>
+                            <div class="controls">
+                                <input type="password" class="span3" placeholder="Şifre" name="password">
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="controls">
+                                <button type="submit" class="defaultBtn">Giriş Yap</button> <a href="#">Şifreni mi unuttun?</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="span1"> &nbsp;</div>
+            <div class="span4">
+                <div class="well">
+                    <h5>HESAP OLUŞTUR</h5><br/>
+                    Tüm hizmetlerimizden yararlanabilmek için bir hesap oluşturun.<br/><br/><br/>
+
+                    <a href="/register" class="btn block">Kayıt Ol</a>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    </div>
+
+
+{% endblock %}

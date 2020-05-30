@@ -1,0 +1,78 @@
+{% extends 'homebase.html' %}
+{% load static %}
+
+{% block title %} {{ query }} Arama Sonuçları {% endblock %}
+{% block keywords %} {% endblock %}
+{% block description %} {% endblock %}
+{% block head %} <link rel="shortcut icon" href="{{ settings.icon.url }}" type="image/x-icon"> {% endblock %}
+
+{% block sidebar %}
+    <div class="row">
+    {% include 'sidebar.html' %}
+{% endblock %}
+
+{% block body %}
+    <div class="span9">
+        <!--
+            New Products
+            -->
+        <div class="well well-small">
+            <h3>"{{ query }}" Arama Sonuçları</h3>
+            <hr class="soften"/>
+
+            <div class="row-fluid">
+                {% for product in products %}
+                    {% with counter=1 %}
+
+                        {% if forloop.counter0|divisibleby:3 %}
+                            <ul class="thumbnails">
+                            {% with counter=forloop.counter0  %}{% endwith %}
+                        {% endif %}
+
+                    <li class="span4">
+                        <div class="thumbnail">
+
+                            <a class="zoomTool" href="/product/{{ product.id }}/{{ product.slug }}" title="add to cart"><span class="icon-search"></span> VIEW</a>
+                            <a href="" style="display: flex; height: 270px"><img src="{{ product.image.url }}" alt=""></a>
+                            <div class="caption cntr">
+                                <p>{{ product.title }}</p>
+                                <p><strong> {{ product.price }}TL</strong></p>
+                                <h4><a class="shopBtn" href="/product/{{ product.id }}/{{ product.slug }}" title="add to cart"> VIEW DETAILS </a></h4>
+                                <div class="actionList">
+                                    <a class="pull-left" href="#">Add to Wish List </a>
+                                    <a class="pull-left" href="#"> Add to Compare </a>
+                                </div>
+                                <br class="clr">
+                            </div>
+                        </div>
+                    </li>
+                    {% if forloop.counter0|divisibleby:3 and forloop.counter0 == counter|add:3 %}
+                        </ul>
+                    {% endif %}
+                    {% endwith %}
+                {% endfor %}
+
+
+                {#                <li class="span4">#}
+                {#                    <div class="thumbnail">#}
+                {#                        <a class="zoomTool" href="" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>#}
+                {#                        <a href=""><img src="{% static 'img/c.jpg' %}" alt=""></a>#}
+                {#                        <div class="caption cntr">#}
+                {#                            <p>Manicure & Pedicure</p>#}
+                {#                            <p><strong> $22.00</strong></p>#}
+                {#                            <h4><a class="shopBtn" href="#" title="add to cart"> Add to cart </a></h4>#}
+                {#                            <div class="actionList">#}
+                {#                                <a class="pull-left" href="#">Add to Wish List </a>#}
+                {#                                <a class="pull-left" href="#"> Add to Compare </a>#}
+                {#                            </div>#}
+                {#                            <br class="clr">#}
+                {#                        </div>#}
+                {#                    </div>#}
+                {#                </li>#}
+                </ul>
+            </div>
+        </div>
+    </div>
+    </div>
+{% endblock %}
+

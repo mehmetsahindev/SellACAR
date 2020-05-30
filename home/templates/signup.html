@@ -1,0 +1,59 @@
+{% extends 'homebase.html' %}
+
+{% block title %} Kayıt Ol | {{ settings.company }} {% endblock %}
+{% block keywords %} {{ settings.keywords }} {% endblock %}
+{% block description %} {{ settings.description }} {% endblock %}
+{% block head %} <link rel="shortcut icon" href="{{ settings.icon.url }}" type="image/x-icon"> {% endblock %}
+
+{% block sidebar %}
+    <div class="row">
+    {% include 'sidebar.html' %}
+{% endblock %}
+
+{% block body %}
+
+    <div class="span9">
+        <ul class="breadcrumb">
+            <li><a href="index.html">Home</a> <span class="divider">/</span></li>
+            <li class="active">Registration</li>
+        </ul>
+        <h3> Registration</h3>
+        <hr class="soft"/>
+        <div class="well">
+            <form class="form-horizontal" method="post">
+                <h3>Your Personal Details</h3>
+
+                {% csrf_token %}
+
+                {% for field in form %}
+                    <div class="control-group">
+                        <label class="control-label" for="inputFname">{{ field.label_tag }}</label>
+                        <div class="controls">
+                            {{ field }}
+                        </div>
+                        {% if field.help_text %}
+                            <small style="color: grey;">{{ field.help_text }}</small>
+                        {% endif %}
+                        {% for error in field.errors %}
+                            <small style="color: red;">{{ error }}</small>
+                        {% endfor %}
+
+                    </div>
+                {% endfor %}
+                <div class="control-group">
+                    <div class="controls">
+                        <input type="submit" name="submitAccount" value="Register" class="exclusive shopBtn">
+                    </div>
+                </div>
+
+            </form>
+        </div>
+
+
+    </div>
+
+
+    </div>
+
+
+{% endblock %}

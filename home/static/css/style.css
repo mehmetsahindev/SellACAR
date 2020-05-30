@@ -117,3 +117,41 @@ hr.soften {margin: 8px 0;background: #DDD;}
 .subcat{
     display: none;
 }
+
+.comments{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.comment{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px 5px;
+    margin-bottom: 10px;
+    background-color: #e6e6e6;
+}
+
+.comment span{
+    font-weight: bold;
+}
+
+.comment-header{
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid #d6d6d6;
+    margin-bottom: 5px;
+}
+
+.comment-header p{
+    margin-right: 10px;
+}
+
+.comment-header .user{
+    font-weight: bold;
+}
+
+.comment-header .star span{
+    font-weight: bold;
+}

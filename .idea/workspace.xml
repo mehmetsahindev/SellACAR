@@ -2,338 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d1648cf-a5ab-49b1-8c79-dbfc2383f332" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sentacar.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sentacar.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/.sass-cache/24fa3457fef2c7a8dd499a16da444ff5da93fd79/_footer.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/.sass-cache/24fa3457fef2c7a8dd499a16da444ff5da93fd79/_header.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/.sass-cache/24fa3457fef2c7a8dd499a16da444ff5da93fd79/_nav.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/.sass-cache/92e65d89f02a31c41a04d8a86d76125d70b1e445/_buttons.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/.sass-cache/92e65d89f02a31c41a04d8a86d76125d70b1e445/_responsive.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/.sass-cache/92e65d89f02a31c41a04d8a86d76125d70b1e445/_sections.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/.sass-cache/92e65d89f02a31c41a04d8a86d76125d70b1e445/_theme-color.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/.sass-cache/92e65d89f02a31c41a04d8a86d76125d70b1e445/_typography.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/.sass-cache/b17cfc8f2f692ca944bdfcaed15220cf78b09c99/style.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/.sass-cache/d69ec8be0a74b90aa26ec05a08d2f01daa24c3bd/_base.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/.sass-cache/d69ec8be0a74b90aa26ec05a08d2f01daa24c3bd/_mixins.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/.sass-cache/d69ec8be0a74b90aa26ec05a08d2f01daa24c3bd/_variables.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/blog-archive.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/blog-single.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/contact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/css/font-awesome.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/css/jquery.fancybox.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/css/nouislider.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/css/slick.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/css/theme-color/bridge-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/css/theme-color/dark-red-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/css/theme-color/default-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/css/theme-color/green-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/css/theme-color/orange-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/css/theme-color/pink-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/css/theme-color/purple-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/css/theme-color/red-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/css/theme-color/violet-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/css/theme-color/yellow-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/gallery.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/about-us.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/agents/agent-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/agents/agent-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/agents/agent-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/agents/agent-5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/banner-ads.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/blog-img-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/blog-img-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/blog-img-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/client-brand-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/client-brand-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/client-brand-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/client-brand-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/client-brand-5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/gallery/big/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/gallery/big/10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/gallery/big/11 - Copy.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/gallery/big/12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/gallery/big/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/gallery/big/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/gallery/big/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/gallery/big/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/gallery/big/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/gallery/big/7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/gallery/big/8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/gallery/big/9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/gallery/fancybox_buttons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/gallery/fancybox_loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/gallery/fancybox_loading@2x.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/gallery/fancybox_overlay.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/gallery/fancybox_sprite.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/gallery/fancybox_sprite@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/gallery/small/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/gallery/small/10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/gallery/small/11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/gallery/small/12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/gallery/small/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/gallery/small/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/gallery/small/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/gallery/small/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/gallery/small/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/gallery/small/7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/gallery/small/8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/gallery/small/9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/item/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/item/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/item/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/item/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/item/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/item/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/promo-banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/property-header-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/property-view-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/signin-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/slider/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/slider/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/slider/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/slider/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/slider/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/slider/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/testimonial-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/testimonial-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/testimonial-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/img/testimonial-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/js/custom.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/js/jquery.fancybox.pack.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/js/jquery.mixitup.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/js/nouislider.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/js/slick.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/properties-detail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/properties.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/register.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/scss/base/_base.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/scss/base/_mixins.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/scss/base/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/scss/layouts/_footer.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/scss/layouts/_header.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/scss/layouts/_nav.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/scss/modules/_buttons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/scss/modules/_responsive.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/scss/modules/_sections.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/scss/modules/_theme-color.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/scss/modules/_typography.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/scss/style.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/Home Property/signin.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/help/DOCUMENTATION/assets/blueprint-css/ie.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/help/DOCUMENTATION/assets/blueprint-css/plugins/buttons/icons/cross.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/help/DOCUMENTATION/assets/blueprint-css/plugins/buttons/icons/key.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/help/DOCUMENTATION/assets/blueprint-css/plugins/buttons/icons/tick.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/help/DOCUMENTATION/assets/blueprint-css/plugins/buttons/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/help/DOCUMENTATION/assets/blueprint-css/plugins/buttons/screen.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/help/DOCUMENTATION/assets/blueprint-css/plugins/fancy-type/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/help/DOCUMENTATION/assets/blueprint-css/plugins/fancy-type/screen.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/help/DOCUMENTATION/assets/blueprint-css/plugins/link-icons/icons/doc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/help/DOCUMENTATION/assets/blueprint-css/plugins/link-icons/icons/email.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/help/DOCUMENTATION/assets/blueprint-css/plugins/link-icons/icons/external.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/help/DOCUMENTATION/assets/blueprint-css/plugins/link-icons/icons/feed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/help/DOCUMENTATION/assets/blueprint-css/plugins/link-icons/icons/im.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/help/DOCUMENTATION/assets/blueprint-css/plugins/link-icons/icons/pdf.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/help/DOCUMENTATION/assets/blueprint-css/plugins/link-icons/icons/visited.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/help/DOCUMENTATION/assets/blueprint-css/plugins/link-icons/icons/xls.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/help/DOCUMENTATION/assets/blueprint-css/plugins/link-icons/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/help/DOCUMENTATION/assets/blueprint-css/plugins/link-icons/screen.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/help/DOCUMENTATION/assets/blueprint-css/plugins/rtl/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/help/DOCUMENTATION/assets/blueprint-css/plugins/rtl/screen.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/help/DOCUMENTATION/assets/blueprint-css/print.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/help/DOCUMENTATION/assets/blueprint-css/screen.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/help/DOCUMENTATION/assets/blueprint-css/src/forms.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/help/DOCUMENTATION/assets/blueprint-css/src/grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/help/DOCUMENTATION/assets/blueprint-css/src/grid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/help/DOCUMENTATION/assets/blueprint-css/src/ie.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/help/DOCUMENTATION/assets/blueprint-css/src/print.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/help/DOCUMENTATION/assets/blueprint-css/src/reset.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/help/DOCUMENTATION/assets/blueprint-css/src/typography.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/help/DOCUMENTATION/assets/images/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/help/DOCUMENTATION/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/help/DOCUMENTATION/syntax-highlighter/scripts/shAutoloader.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/help/DOCUMENTATION/syntax-highlighter/scripts/shBrushAS3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/help/DOCUMENTATION/syntax-highlighter/scripts/shBrushAppleScript.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/help/DOCUMENTATION/syntax-highlighter/scripts/shBrushBash.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/help/DOCUMENTATION/syntax-highlighter/scripts/shBrushCSharp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/help/DOCUMENTATION/syntax-highlighter/scripts/shBrushColdFusion.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/help/DOCUMENTATION/syntax-highlighter/scripts/shBrushCpp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/help/DOCUMENTATION/syntax-highlighter/scripts/shBrushCss.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/help/DOCUMENTATION/syntax-highlighter/scripts/shBrushDelphi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/help/DOCUMENTATION/syntax-highlighter/scripts/shBrushDiff.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/help/DOCUMENTATION/syntax-highlighter/scripts/shBrushErlang.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/help/DOCUMENTATION/syntax-highlighter/scripts/shBrushGroovy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/help/DOCUMENTATION/syntax-highlighter/scripts/shBrushJScript.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/help/DOCUMENTATION/syntax-highlighter/scripts/shBrushJava.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/help/DOCUMENTATION/syntax-highlighter/scripts/shBrushJavaFX.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/help/DOCUMENTATION/syntax-highlighter/scripts/shBrushPerl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/help/DOCUMENTATION/syntax-highlighter/scripts/shBrushPhp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/help/DOCUMENTATION/syntax-highlighter/scripts/shBrushPlain.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/help/DOCUMENTATION/syntax-highlighter/scripts/shBrushPowerShell.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/help/DOCUMENTATION/syntax-highlighter/scripts/shBrushPython.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/help/DOCUMENTATION/syntax-highlighter/scripts/shBrushRuby.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/help/DOCUMENTATION/syntax-highlighter/scripts/shBrushSass.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/help/DOCUMENTATION/syntax-highlighter/scripts/shBrushScala.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/help/DOCUMENTATION/syntax-highlighter/scripts/shBrushSql.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/help/DOCUMENTATION/syntax-highlighter/scripts/shBrushVb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/help/DOCUMENTATION/syntax-highlighter/scripts/shBrushXml.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/help/DOCUMENTATION/syntax-highlighter/scripts/shCore.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/help/DOCUMENTATION/syntax-highlighter/scripts/shLegacy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/help/DOCUMENTATION/syntax-highlighter/styles/shCore.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/help/DOCUMENTATION/syntax-highlighter/styles/shCoreDefault.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/help/DOCUMENTATION/syntax-highlighter/styles/shCoreDjango.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/help/DOCUMENTATION/syntax-highlighter/styles/shCoreEclipse.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/help/DOCUMENTATION/syntax-highlighter/styles/shCoreEmacs.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/help/DOCUMENTATION/syntax-highlighter/styles/shCoreFadeToGrey.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/help/DOCUMENTATION/syntax-highlighter/styles/shCoreMDUltra.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/help/DOCUMENTATION/syntax-highlighter/styles/shCoreMidnight.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/help/DOCUMENTATION/syntax-highlighter/styles/shCoreRDark.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/help/DOCUMENTATION/syntax-highlighter/styles/shThemeDefault.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/help/DOCUMENTATION/syntax-highlighter/styles/shThemeDjango.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/help/DOCUMENTATION/syntax-highlighter/styles/shThemeEclipse.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/help/DOCUMENTATION/syntax-highlighter/styles/shThemeEmacs.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/help/DOCUMENTATION/syntax-highlighter/styles/shThemeFadeToGrey.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/help/DOCUMENTATION/syntax-highlighter/styles/shThemeMDUltra.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/help/DOCUMENTATION/syntax-highlighter/styles/shThemeMidnight.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/help/DOCUMENTATION/syntax-highlighter/styles/shThemeRDark.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/MarkUps-HomeProperty/license.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/home/static/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/css/font-awesome.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/css/jquery.fancybox.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/css/nouislider.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/css/slick.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/home/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/home/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/css/theme-color/bridge-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/css/theme-color/dark-red-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/css/theme-color/default-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/css/theme-color/green-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/css/theme-color/orange-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/css/theme-color/pink-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/css/theme-color/purple-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/css/theme-color/red-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/css/theme-color/violet-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/css/theme-color/yellow-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/about-us.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/agents/agent-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/agents/agent-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/agents/agent-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/agents/agent-5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/banner-ads.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/blog-img-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/blog-img-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/blog-img-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/client-brand-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/client-brand-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/client-brand-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/client-brand-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/client-brand-5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/gallery/big/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/gallery/big/10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/gallery/big/11 - Copy.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/gallery/big/12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/gallery/big/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/gallery/big/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/gallery/big/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/gallery/big/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/gallery/big/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/gallery/big/7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/gallery/big/8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/gallery/big/9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/gallery/fancybox_buttons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/gallery/fancybox_loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/gallery/fancybox_loading@2x.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/gallery/fancybox_overlay.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/gallery/fancybox_sprite.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/gallery/fancybox_sprite@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/gallery/small/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/gallery/small/10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/gallery/small/11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/gallery/small/12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/gallery/small/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/gallery/small/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/gallery/small/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/gallery/small/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/gallery/small/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/gallery/small/7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/gallery/small/8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/gallery/small/9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/item/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/item/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/item/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/item/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/item/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/item/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/promo-banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/property-header-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/property-view-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/signin-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/slider/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/slider/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/slider/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/slider/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/slider/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/slider/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/testimonial-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/testimonial-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/testimonial-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/testimonial-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/home/static/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/js/custom.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/js/jquery.fancybox.pack.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/js/jquery.mixitup.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/js/nouislider.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/js/slick.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/js/shop.js" beforeDir="false" afterPath="$PROJECT_DIR$/home/static/js/shop.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/templates/content.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/content.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/contentheader.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/home/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/hakkimizda.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/hakkimizda.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/templates/homebase.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/homebase.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/iletisim.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/iletisim.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/search.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/slider.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/slider.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/sidebar.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/product/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/product/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentacar/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/sentacar/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/product/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/product/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sentacar/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/sentacar/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -360,8 +44,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -383,7 +67,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/home/templates" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -438,7 +122,21 @@
       <workItem from="1589599918813" duration="1704000" />
       <workItem from="1589636475038" duration="12264000" />
       <workItem from="1589768360990" duration="6852000" />
-      <workItem from="1589805653209" duration="2651000" />
+      <workItem from="1589805653209" duration="9374000" />
+      <workItem from="1589898592367" duration="3081000" />
+      <workItem from="1589937448270" duration="5386000" />
+      <workItem from="1589976672177" duration="5104000" />
+      <workItem from="1590015852035" duration="3332000" />
+      <workItem from="1590099804601" duration="5136000" />
+      <workItem from="1590210124759" duration="2421000" />
+      <workItem from="1590298875060" duration="373000" />
+      <workItem from="1590321540047" duration="606000" />
+      <workItem from="1590403695472" duration="7404000" />
+      <workItem from="1590447100932" duration="4519000" />
+      <workItem from="1590657212502" duration="38000" />
+      <workItem from="1590747489149" duration="9992000" />
+      <workItem from="1590820531708" duration="2856000" />
+      <workItem from="1590847785711" duration="593000" />
     </task>
     <task id="LOCAL-00001" summary="product uygulaması ve category modeli eklendi">
       <created>1587146698856</created>
@@ -521,10 +219,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="100" y="100" width="1720" height="840" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587147237186" />
-    <state x="1163" y="275" key="FileChooserDialogImpl" timestamp="1589689021989">
+    <state x="1163" y="275" key="FileChooserDialogImpl" timestamp="1590657254105">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1163" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1589689021989" />
+    <state x="1163" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1590657254105" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1589689031388">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -537,10 +235,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="612" y="169" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1589424002574" />
-    <state x="661" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1589805671551">
+    <state x="661" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1590447104634">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="661" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589805671551" />
+    <state x="661" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590447104634" />
     <state x="1142" y="230" key="search.everywhere.popup" timestamp="1589502362304">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -551,7 +249,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/product/admin.py</url>
-          <line>52</line>
+          <line>54</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

@@ -2,6 +2,7 @@ from django.db import models
 
 
 # Create your models here.
+from django.urls import reverse
 from django.utils.safestring import mark_safe
 from ckeditor_uploader.fields import RichTextUploadingField
 from mptt.fields import TreeForeignKey
@@ -18,7 +19,7 @@ class Category(MPTTModel):
     description = models.CharField(max_length=255)
     image = models.ImageField(blank=True, upload_to='images/')
     status = models.CharField(max_length=10, choices=STATUS)
-    slug = models.SlugField()
+    slug = models.SlugField(null=False, unique=True)
     parent = TreeForeignKey('self', blank=True, null=True, related_name='children', on_delete=models.CASCADE)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
@@ -37,6 +38,9 @@ class Category(MPTTModel):
     def image_tag(self):
         return mark_safe('<img src="{}" height="50"/>'.format(self.image.url))
     image_tag.short_description = 'Image'
+
+    def get_absolute_url(self):
+        return reverse('category_detail', kwargs={'slug': self.slug})
 
 
 class Product(models.Model):
@@ -68,7 +72,7 @@ class Product(models.Model):
     price = models.FloatField()
     amount = models.IntegerField()
     detail = RichTextUploadingField()
-    slug = models.SlugField(max_length=150)
+    slug = models.SlugField(null=False, unique=True)
     status = models.CharField(max_length=10, choices=STATUS)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
@@ -77,6 +81,8 @@ class Product(models.Model):
     def image_tag(self):
         return mark_safe('<img src="{}" height="50"/>'.format(self.image.url))
     image_tag.short_description = 'Image'
+    def get_absolute_url(self):
+        return reverse('product_detail', kwargs={'slug': self.slug})
 
 class Images(models.Model):
     product = models.ForeignKey(Product, on_delete=models.CASCADE)

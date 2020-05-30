@@ -33,7 +33,7 @@ $('.thumbnail').mouseleave(function() {
 
 	// category
 
-	$("#sidebar a").not(".subcat a").on("click", function (e) {
+	$("#sidebar .categories a").not(".subcat a").on("click", function (e) {
 		e.preventDefault();
 		$(this).parent().find(".subcat").slideToggle();
 	})
