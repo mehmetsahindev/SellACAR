@@ -21,17 +21,11 @@
             <hr class="soften"/>
 
             <div class="row-fluid">
+             <ul class="thumbnails" style="display: flex; flex-wrap: wrap;">
                 {% for product in products %}
-                    {% with counter=1 %}
 
-                        {% if forloop.counter0|divisibleby:3 %}
-                            <ul class="thumbnails">
-                            {% with counter=forloop.counter0  %}{% endwith %}
-                        {% endif %}
-
-                    <li class="span4">
+                    <li class="span4" style="margin-left: 0; margin-right: 5px">
                         <div class="thumbnail">
-
                             <a class="zoomTool" href="/product/{{ product.id }}/{{ product.slug }}" title="add to cart"><span class="icon-search"></span> VIEW</a>
                             <a href="" style="display: flex; height: 270px"><img src="{{ product.image.url }}" alt=""></a>
                             <div class="caption cntr">
@@ -46,11 +40,9 @@
                             </div>
                         </div>
                     </li>
-                    {% if forloop.counter0|divisibleby:3 and forloop.counter0 == counter|add:3 %}
-                        </ul>
-                    {% endif %}
-                    {% endwith %}
+
                 {% endfor %}
+            </ul>
 
 
                 {#                <li class="span4">#}

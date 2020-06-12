@@ -1,0 +1,63 @@
+{% extends 'homebase.html' %}
+{% load static %}
+
+{% block title %} {{ profile.user.username }} Profile {% endblock %}
+{% block keywords %} {{ settings.keywords }} {% endblock %}
+{% block description %} {{ settings.description }} {% endblock %}
+{% block head %} <link rel="shortcut icon" href="{{ settings.icon.url }}" type="image/x-icon"> {% endblock %}
+
+{% block sidebar %}
+    <div class="row">
+    <div id="sidebar" class="span3">
+        <div class="well well-small">
+            <ul class="nav nav-list user-panel">
+                {% include 'profile_panel.html' %}
+            </ul>
+        </div>
+
+    </div>
+{% endblock %}
+
+{% block body %}
+    <div class="span9">
+        <div class="well well-small">
+            <h3> {{ profile.user.first_name }} {{ profile.user.last_name }} <small> {{ profile.user.username }} </small></h3>
+            <hr class="soft"/>
+            <h5>Kullanıcı Yorumları</h5>
+            {% if messages %}
+                {% for message in messages %}
+                    <div class="alert alert-{{ message.tag }}" role="alert">
+                        {{ message }}
+                    </div>
+                {% endfor %}
+
+            {% endif %}
+            <table id="compairTbl" class="table table-bordered">
+                <tr>
+                    <td><strong>Araç</strong></td>
+                    <td><strong>Puan</strong></td>
+                    <td><strong>Konu</strong></td>
+                    <td><strong>Yorum</strong></td>
+                    <td><strong>Durum</strong></td>
+                    <td><strong>Tarih</strong></td>
+                    <td><strong style="color: red;">Sil</strong></td>
+                </tr>
+                {% for comment in comments %}
+                    <tr>
+                        <td><a href="/product/{{ comment.product.id }}/{{ comment.product.slug }}">{{ comment.product.title }}</a></td>
+                        <td>{{ comment.rate }}</td>
+                        <td>{{ comment.subject }}</td>
+                        <td>{{ comment.comment }}</td>
+                        <td>{{ comment.status }}</td>
+                        <td>{{ comment.created_at }}</td>
+                        <td><a href="/user/deletecomment/{{ comment.id }}" style="font-weight: bold; color: red;">X</a></td>
+                    </tr>
+                {% endfor %}
+
+            </table>
+            <div class="alignR"><a href="/user/update" class="shopBtn btn-large">Bilgileri Düzenle</a></div>
+        </div>
+    </div>
+    </div>
+{% endblock %}
+

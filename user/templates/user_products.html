@@ -1,0 +1,64 @@
+{% extends 'homebase.html' %}
+{% load static %}
+
+{% block title %} {{ profile.user.username }} Profile {% endblock %}
+{% block keywords %} {{ settings.keywords }} {% endblock %}
+{% block description %} {{ settings.description }} {% endblock %}
+{% block head %} <link rel="shortcut icon" href="{{ settings.icon.url }}" type="image/x-icon"> {% endblock %}
+
+{% block sidebar %}
+    <div class="row">
+    <div id="sidebar" class="span3">
+        <div class="well well-small">
+            <ul class="nav nav-list user-panel">
+                {% include 'profile_panel.html' %}
+            </ul>
+        </div>
+
+    </div>
+{% endblock %}
+
+{% block body %}
+    <div class="span9">
+        <div class="well well-small">
+            <h3> {{ user.first_name }} {{ user.last_name }} <small> {{ user.username }} </small></h3>
+            <hr class="soft"/>
+            {% if messages %}
+                {% for message in messages %}
+                    <div class="alert alert-{{ message.tag }}" role="alert">
+                        {{ message }}
+                    </div>
+                {% endfor %}
+
+            {% endif %}
+
+            <div class="row-fluid">
+                <ul class="thumbnails" style="display: flex; flex-wrap: wrap;">
+                    {% for product in products %}
+
+                        <li class="span4" style="margin-left: 0; margin-right: 5px">
+                            <div class="thumbnail">
+                                <a class="zoomTool" href="/product/{{ product.id }}/{{ product.slug }}" title="add to cart"><span class="icon-search"></span> VIEW</a>
+                                <a href="" style="display: flex; height: 270px"><img src="{{ product.image.url }}" alt=""></a>
+                                <div class="caption cntr">
+                                    <p>{{ product.title }}</p>
+                                    <p><strong> {{ product.price }}TL</strong></p>
+                                    <h4><a class="shopBtn" href="/product/{{ product.id }}/{{ product.slug }}" title="add to cart"> VIEW DETAILS </a></h4>
+                                    <div class="actionList">
+                                        <a class="pull-left" href="#">Add to Wish List </a>
+                                        <a class="pull-left" href="#"> Add to Compare </a>
+                                    </div>
+                                    <br class="clr">
+                                </div>
+                            </div>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+
+            <div class="alignR"><a href="/user" class="shopBtn btn-large">Back to Profile</a></div>
+        </div>
+    </div>
+    </div>
+{% endblock %}
+

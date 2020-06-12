@@ -13,10 +13,15 @@
                     <a href="#"><span class="icon-tumblr"></span></a>
                 </div>
                 <a class="active" href="/"> <span class="icon-home"></span> Home</a>
-                <a href="#"><span class="icon-user"></span> My Account</a>
-                <a href=""><span class="icon-edit"></span> Free Register </a>
-                <a href="/hakkimizda"><span class="icon-envelope"></span> About us</a>
-                <a href="/iletisim"><span class="icon-envelope"></span> Contact us</a>
+                {% if user.id is not None %}
+                    <a href="/user"><span class="icon-user"></span> Hesabım</a>
+                {% else %}
+                    <a href="/signup"><span class="icon-edit"></span> Kayıt Ol </a>
+                {% endif %}
+
+
+                <a href="/hakkimizda"><span class="icon-envelope"></span> Hakkımızda</a>
+                <a href="/iletisim"><span class="icon-envelope"></span> İletişim</a>
                 {#				<a href=""><span class="icon-shopping-cart"></span> 2 Item(s) - <span class="badge badge-warning"> $448.42</span></a>#}
             </div>
         </div>
@@ -38,39 +43,43 @@ Lower Header Section
                 </h1>
             </div>
             <div class="span4">
-                <div class="offerNoteWrapper">
-                    <h1 class="dotmark">
-                        <i class="icon-cut"></i>
-                        Twitter Bootstrap shopping cart HTML template is available @ $14
-                    </h1>
-                </div>
+                {% if messages %}
+                    <div class="offerNoteWrapper">
+                        {% for message in messages %}
+                            <h1 class="dotmark">
+                                <i class="icon-cut"></i>
+                                Twitter Bootstrap shopping cart HTML template is available @ $14
+                            </h1>
+                        {% endfor %}
+                    </div>
+                {% endif %}
             </div>
             {% if user.id is not None %}
                 <div class="span4 alignR">
                     <p><br> <strong> {{ user.first_name }} </strong><br><br></p>
                     <span class="btn btn-mini"><a href="#">Profile</a></span>
-{#                    <span class="btn btn-warning btn-mini">$</span>#}
-{#                    <span class="btn btn-mini">&pound;</span>#}
-{#                    <span class="btn btn-mini">&euro;</span>#}
+                    {#                    <span class="btn btn-warning btn-mini">$</span>#}
+                    {#                    <span class="btn btn-mini">&pound;</span>#}
+                    {#                    <span class="btn btn-mini">&euro;</span>#}
                 </div>
             {% endif %}
         </div>
     </header>
 
-{#    <script>#}
-{#        $(function () {#}
-{#            #('#query').autocomplete({#}
-{#                source: "/search_auto/",#}
-{#                select: function (event, ui) {#}
-{#                    AutoCompleteSelectHandler(event, ui)#}
-{#                },#}
-{#                minLength: 2,#}
-{#            });#}
-{#        });#}
-{#        function AutoCompleteSelectHandler(eveti, ui) {#}
-{#            var selectedObj = ui.item;#}
-{#        }#}
-{#    </script>#}
+    {#    <script>#}
+    {#        $(function () {#}
+    {#            #('#query').autocomplete({#}
+    {#                source: "/search_auto/",#}
+    {#                select: function (event, ui) {#}
+    {#                    AutoCompleteSelectHandler(event, ui)#}
+    {#                },#}
+    {#                minLength: 2,#}
+    {#            });#}
+    {#        });#}
+    {#        function AutoCompleteSelectHandler(eveti, ui) {#}
+    {#            var selectedObj = ui.item;#}
+    {#        }#}
+    {#    </script>#}
 
     <!--
     Navigation Bar Section

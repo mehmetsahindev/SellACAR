@@ -42,38 +42,28 @@
 
                     <form class="form-horizontal qtyFrm">
                         <div class="control-group">
-                            <label class="control-label"><span>{{ product.price }}TL</span></label>
-                            <div class="controls">
-                                <input type="number" class="span6" placeholder="Qty.">
-                            </div>
+                            <label class="control-label">Fiyat: <span>{{ product.price }}TL</span></label>
                         </div>
 
-                        <div class="control-group">
-                            <label class="control-label"><span>Color</span></label>
-                            <div class="controls">
-                                <select class="span11">
-                                    <option>Red</option>
-                                    <option>Purple</option>
-                                    <option>Pink</option>
-                                    <option>Red</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="control-group">
-                            <label class="control-label"><span>Materials</span></label>
-                            <div class="controls">
-                                <select class="span11">
-                                    <option>Material 1</option>
-                                    <option>Material 2</option>
-                                    <option>Material 3</option>
-                                    <option>Material 4</option>
-                                </select>
-                            </div>
-                        </div>
-                        <h4>100 items in stock</h4>
-                        <p>Buralar satıcı bilgileri eklenecek
-                        <p>
-                            <button type="submit" class="shopBtn"><span class=" icon-shopping-cart"></span> Add to cart</button>
+                        <h4>Satıcı Bilgileri</h4>
+                        <table width="100%" class="table table-striped">
+                            <tr>
+                                <td><strong>Kullanıcı Adı: </strong></td>
+                                <td>{{ product.user.username }}</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Ad Soyad: </strong></td>
+                                <td>{{ product.user.first_name }} {{ product.user.last_name }}</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Telefon: </strong></td>
+                                <td>{{ product.user.userprofile.phone }}</td>
+                            </tr>
+                        </table>
+{#                            <button type="submit" class="shopBtn"><span class=" icon-shopping-cart"></span> Add to cart</button>#}
+                        {% if user.id is not None and user == product.user %}
+                            <a href="/product/productdelete/{{ product.id }}" class="shopBtn" style="background-color: red;">Ürünü Kaldır</a>
+                        {% endif %} 
                     </form>
                 </div>
             </div>

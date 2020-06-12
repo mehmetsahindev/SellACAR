@@ -5,6 +5,7 @@ from django.http import HttpResponse, HttpResponseRedirect
 
 # Create your views here.
 from home.models import CommentForm, Comment
+from product.models import Product
 
 
 def index(request):
@@ -31,3 +32,10 @@ def addComment(request,id):
 
     messages.warning(request, "Yorumunuz kaydedilmedi, kontrol edin")
     return HttpResponseRedirect(url)
+
+@login_required(login_url='/login')
+def product_delete(request, id):
+    user = request.user
+    Product.objects.filter(id=id,user_id=user.id).delete()
+    messages.success(request, 'Ürününüz kaldırıldı.')
+    return HttpResponseRedirect('/user/products')
