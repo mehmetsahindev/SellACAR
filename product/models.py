@@ -3,6 +3,7 @@ from django.db import models
 
 
 # Create your models here.
+from django.forms import ModelForm
 from django.urls import reverse
 from django.utils.safestring import mark_safe
 from ckeditor_uploader.fields import RichTextUploadingField
@@ -95,3 +96,8 @@ class Images(models.Model):
     def image_tag(self):
         return mark_safe('<img src="{}" height="50"/>'.format(self.image.url))
     image_tag.short_description = 'Image'
+
+class ProductImageForm(ModelForm):
+    class Meta:
+        model = Images
+        fields = ['title', 'image']

@@ -4,19 +4,17 @@
     <list default="true" id="2d1648cf-a5ab-49b1-8c79-dbfc2383f332" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/content.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/content.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/templates/product_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/product_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/products.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/products_search.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/products_search.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/product/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/product/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/product/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentacar/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/sentacar/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentacar/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/sentacar/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/templates/change_password.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/templates/change_password.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/templates/profile_panel.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/templates/profile_panel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/templates/user_comments.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/templates/user_comments.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/templates/user_products.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/templates/user_products.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/templates/user_products_new.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/templates/user_products_new.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/templates/user_profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/templates/user_profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/templates/user_update.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/templates/user_update.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +64,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Sentiment-Analysis" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -145,6 +143,9 @@
       <workItem from="1591566508856" duration="2649000" />
       <workItem from="1591613321123" duration="600000" />
       <workItem from="1591618072999" duration="21000" />
+      <workItem from="1591969508431" duration="90000" />
+      <workItem from="1592160329667" duration="20000" />
+      <workItem from="1592520076255" duration="5200000" />
     </task>
     <task id="LOCAL-00001" summary="product uygulaması ve category modeli eklendi">
       <created>1587146698856</created>
@@ -227,11 +228,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="100" y="100" width="1720" height="840" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587147237186" />
-    <state x="1163" y="275" key="FileChooserDialogImpl" timestamp="1591618091985">
+    <state x="1163" y="275" key="FileChooserDialogImpl" timestamp="1592160349062">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1163" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1590657254105" />
-    <state x="1163" y="275" key="FileChooserDialogImpl/1920.-69.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1591618091985" />
+    <state x="1163" y="275" key="FileChooserDialogImpl/1920.-69.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1592160349062" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1589689031388">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

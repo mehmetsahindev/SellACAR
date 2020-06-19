@@ -7,7 +7,7 @@ from django.shortcuts import render, redirect
 
 # Create your views here.
 from home.models import UserProfile, Comment
-from product.models import Category, Product
+from product.models import Category, Product, Images, ProductImageForm
 from user.forms import UserUpdateForm, ProfileUpdateForm, UserProductForm
 
 
@@ -126,7 +126,8 @@ def products_new(request):
             data.status = 'Evet'
             data.save()
 
-            messages.success(request, 'Ürününz Eklendi. <a href="/product/'+str(data.id)+'/'+str(data.slug)+'">Ürüne git >></a>')
+            messages.success(request, 'Ürününz Eklendi. <a href="/product/' + str(data.id) + '/' + str(
+                data.slug) + '">Ürüne git >></a>', extra_tags='safe')
             return HttpResponseRedirect('/user/products')
         else:
             messages.error(request, 'Lütfen hatalı alanları düzeltiniz <br>' + str(form.errors))
@@ -140,3 +141,76 @@ def products_new(request):
             'form': form,
         }
         return render(request, 'user_products_new.html', context)
+
+
+def products_edit(request, id):
+    content = Product.objects.get(id=id)
+    if request.POST:
+        form = UserProductForm(request.POST, request.FILES, instance=content)
+        if form.is_valid():
+            # user = request.user
+            # data = Product()
+            # data.user_id = user.id
+            # data.category_id = request.POST.get('category')
+            # data.title = form.cleaned_data['title']
+            # data.keywords = form.cleaned_data['keywords']
+            # data.description = form.cleaned_data['description']
+            # data.image = form.cleaned_data['image']
+            # data.marka = form.cleaned_data['marka']
+            # data.model = form.cleaned_data['model']
+            # data.renk = form.cleaned_data['renk']
+            # data.year = form.cleaned_data['year']
+            # data.kilometre = form.cleaned_data['kilometre']
+            # data.vites = form.cleaned_data['vites']
+            # data.durum = form.cleaned_data['durum']
+            # data.price = form.cleaned_data['price']
+            # data.amount = form.cleaned_data['amount']
+            # data.detail = form.cleaned_data['detail']
+            # data.slug = form.cleaned_data['slug']
+            # data.status = 'Evet'
+            # data.save()
+
+            form.save()
+            content = Product.objects.get(id=id)
+            messages.success(request, 'Ürününz Güncellendi. <a href="/product/'+str(id)+'/'+str(content.slug)+'">Ürüne git >></a>', extra_tags='safe')
+            # messages.success(request, 'Ürününz Güncellendi.')
+            return HttpResponseRedirect('/user/products')
+        else:
+            messages.error(request, 'Lütfen hatalı alanları düzeltiniz <br>' + str(form.errors))
+            return HttpResponseRedirect('/user/products/edit/'+ str(id))
+    else:
+        form = UserProductForm(instance=content)
+        user = request.user
+        current_user = UserProfile.objects.get(user_id=user.id)
+        context = {
+            'profile': current_user,
+            'form': form,
+        }
+        return render(request, 'user_products_new.html', context)
+
+
+def products_gallery(request, id):
+    if request.method == 'POST':
+        lasturl = request.META.get('HTTP_REFERER')
+        form = ProductImageForm(request.POST, request.FILES)
+        if form.is_valid():
+            data = Images()
+            data.title = form.cleaned_data['title']
+            data.product_id = id
+            data.image = form.cleaned_data['image']
+            data.save()
+            messages.success(request, 'Resim eklendi.')
+            return HttpResponseRedirect(lasturl)
+        else:
+            messages.warning(request, 'Form Error:' + str(form.errors))
+            return HttpResponseRedirect(lasturl)
+    else:
+        product = Product.objects.get(id=id)
+        images = Images.objects.filter(product_id=id)
+        form = ProductImageForm()
+        context = {
+            'product': product,
+            'images': images,
+            'form': form,
+        }
+        return render(request, 'product_gallery.html', context)

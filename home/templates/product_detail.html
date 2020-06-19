@@ -63,7 +63,9 @@
 {#                            <button type="submit" class="shopBtn"><span class=" icon-shopping-cart"></span> Add to cart</button>#}
                         {% if user.id is not None and user == product.user %}
                             <a href="/product/productdelete/{{ product.id }}" class="shopBtn" style="background-color: red;">Ürünü Kaldır</a>
-                        {% endif %} 
+                            <a href="/user/products/edit/{{ product.id }}" class="shopBtn" style="background-color: dodgerblue;">Ürünü Düzenle</a>
+                            <a href="javascript:;" onclick="window.open('/user/productgallery/{{ product.id }}', 'gallery', 'height=600,width=800,top=50,left=150')" class="shopBtn" style="background-color: dodgerblue;">Galeri Düzenle</a>
+                        {% endif %}
                     </form>
                 </div>
             </div>
